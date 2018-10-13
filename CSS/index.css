@@ -14,14 +14,77 @@ h1{
   text-transform: capitalize;
 }
 
+h1 a{
+  text-decoration: none;
+  color: #000000;
+}
+
+nav{
+  text-align: center;
+  font-size: 2rem;
+  margin: 0px auto 70px auto;
+  width: 20rem;
+}
+
+nav div{
+  font-family: Raleway;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-top: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav div p{
+  margin: 0;
+  color: #000000;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+.nav-open{
+  height: 0px;
+  overflow: hidden;
+}
+
+nav ul li{
+  text-align: center;
+  margin: 0 2rem;
+  padding: 1rem;
+  background-color: #565656;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+nav a{
+  text-align: center;
+  text-decoration: none;
+  color: #eaeaea;
+  font-family: Raleway;
+  text-transform: uppercase;
+  padding: 0.5rem 3rem;
+}
+
+nav ul li:hover{
+  background-color: 4ae29e;
+}
+
+nav ul li a:hover{
+  color: #333333;
+}
+
 #card{
   margin: 40px auto;
   width: 90%;
 /*  box-shadow: 3px 3px 3px #888888; */
 }
 
-#card img{
+#card img.picture{
   width: 100%;
+  border-radius:25px;
 }
 
 #card .caption{
