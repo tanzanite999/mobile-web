@@ -51,21 +51,27 @@ nav ul{
   overflow: hidden;
 }
 
+.menu-toggle{
+  color: #adadad;
+}
+
 nav ul li{
   text-align: center;
   margin: 0 2rem;
-  padding: 1rem;
+  padding: 0rem 0;
   background-color: #565656;
   border-bottom: 1px solid #d3d3d3;
 }
 
 nav a{
+  display: block;
   text-align: center;
   text-decoration: none;
   color: #eaeaea;
   font-family: Raleway;
   text-transform: uppercase;
-  padding: 0.5rem 3rem;
+  padding: 1.5rem 0rem;
+  width: 100%;
 }
 
 nav ul li:hover{
